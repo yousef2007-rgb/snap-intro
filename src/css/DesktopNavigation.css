@@ -1,0 +1,68 @@
+.DesktopNavigation-container {
+  display: flex;
+  flex: 1;
+}
+@media (max-width: 748px) {
+  .DesktopNavigation-container {
+    display: none;
+  }
+}
+.DesktopNavigation-container nav {
+  padding: 0 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: hsl(0deg, 0%, 41%);
+  justify-content: space-evenly;
+  flex: 1;
+  max-width: 500px;
+}
+.DesktopNavigation-container nav div {
+  position: relative;
+}
+.DesktopNavigation-container nav div div {
+  position: absolute;
+  top: 30px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 15px;
+  min-width: 100px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.DesktopNavigation-container nav div div span {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+.DesktopNavigation-container nav div div img {
+  margin: 0 5px 0 0;
+}
+.DesktopNavigation-container nav span {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  cursor: pointer;
+}
+.DesktopNavigation-container nav span:hover {
+  color: black;
+}
+.DesktopNavigation-container nav span img {
+  margin-left: 2px;
+}
+.DesktopNavigation-container .registration {
+  margin-left: auto;
+}
+.DesktopNavigation-container .registration button {
+  color: hsl(0deg, 0%, 41%);
+  background: none;
+  padding: 10px 15px;
+  box-shadow: none;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.DesktopNavigation-container .registration button:hover {
+  color: black;
+}
+
+/*# sourceMappingURL=DesktopNavigation.css.map */

@@ -1,0 +1,77 @@
+.MobileNavigation-container {
+  display: flex;
+  flex: 1;
+}
+@media (min-width: 748px) {
+  .MobileNavigation-container {
+    display: none;
+  }
+}
+.MobileNavigation-container .navigation {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 0;
+  background-color: white;
+  max-width: 300px;
+  width: 60%;
+  height: 100vh;
+  top: 0;
+  padding: 10px 20px;
+}
+.MobileNavigation-container nav {
+  display: flex;
+  flex-direction: column;
+  color: hsl(0deg, 0%, 41%);
+  max-width: 500px;
+}
+.MobileNavigation-container nav div {
+  position: relative;
+}
+.MobileNavigation-container nav div div {
+  background-color: white;
+  padding: 10px;
+  border-radius: 15px;
+  min-width: 100px;
+}
+.MobileNavigation-container nav div div span {
+  display: flex;
+  margin: 10px 0 10px 20px;
+}
+.MobileNavigation-container nav div div img {
+  margin: 0 5px 0 0;
+}
+.MobileNavigation-container nav span {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  margin: 10px 0;
+  cursor: pointer;
+}
+.MobileNavigation-container nav span:hover {
+  color: black;
+}
+.MobileNavigation-container nav span img {
+  margin-left: 10px;
+}
+.MobileNavigation-container .closeBtn {
+  margin-left: auto !important;
+  margin: 10px 0;
+  cursor: pointer;
+}
+.MobileNavigation-container .navigation-blur {
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.menu {
+  margin-left: auto;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=MobileNavigation.css.map */

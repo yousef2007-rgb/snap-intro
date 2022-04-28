@@ -1,0 +1,11 @@
+.Header-container {
+  padding: 20px 5px;
+  display: flex;
+  align-items: center;
+}
+.Header-container img {
+  width: fit-content;
+  height: fit-content;
+}
+
+/*# sourceMappingURL=Header.css.map */
